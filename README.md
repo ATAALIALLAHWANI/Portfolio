@@ -1,5 +1,4 @@
-# Gey_Pro
-profile 
+# Portfolio
 
 <p align="center">
   <img src="./Portfolio/Screenshot (2).png" alt="Demo Image 1" width="400">
