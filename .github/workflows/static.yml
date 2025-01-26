@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Specify only the portfolio.html file to upload
-          path: './portfolio.html'
+          path: '../portfolio.html'
 
       - name: Deploy to GitHub Pages
         id: deployment
