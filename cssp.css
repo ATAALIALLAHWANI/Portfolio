@@ -63,7 +63,6 @@ header .logo:hover {
     color: #4daa57;
     font-size: 1.4em;
     display: inline-block;
-    margin-left: 10px; /* Adjust the value as needed to shift it right */
     position: relative;
     left: 10px; /* Fine-tune the exact rightward position */
 }
