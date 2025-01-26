@@ -57,10 +57,7 @@ header .logo:hover {
     color: black;
     display: flex;
     align-items: center;
-    /* background-image: url('Images/differentimage/background6.png'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
 }
 .main div h2 span {
     color: #4daa57;
