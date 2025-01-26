@@ -64,7 +64,6 @@ header .logo:hover {
     font-size: 1.4em;
     display: inline-block;
     position: relative;
-    left: 10px; /* Fine-tune the exact rightward position */
 }
 
 
