@@ -3,154 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ata Ali Alahawani | Software Developer</title>
+    <title>Ata Ali | Software Developer</title>
     <meta
       name="description"
-      content="Ata Ali Alahawani — software developer. Projects built with Java, Spring Boot, React, React Native and SQL."
+      content="Ata Ali Alahawani — software developer. Backend, web and mobile projects built with Java, Spring Boot, React, React Native and SQL."
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container header__inner">
-        <a href="#top" class="name">Ata Ali</a>
-        <nav>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+    <header>
+      <a href="#home" class="logo">Ata Ali</a>
+      <nav class="navigation">
+        <a href="#services">What I Do</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
-    <main id="top">
-      <section class="intro container">
-        <img src="./assets/ataali.jpg" alt="Ata Ali Alahawani" class="avatar" />
-        <div>
-          <h1>Ata Ali Alahawani</h1>
-          <p class="role">Software Developer · Amman, Jordan</p>
-          <p>
-            I build full-stack applications — backend APIs with Java and Spring Boot,
-            web interfaces with React, and mobile apps with React Native. Below are
-            some of the projects I've built.
-          </p>
-          <p class="links">
-            <a href="./assets/Ata_ali.pdf" target="_blank" rel="noopener">Résumé</a>
-            <a href="https://github.com/ATAALIALLAHWANI" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://linkedin.com/in/ata-ali-alahawani-697680233" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="mailto:ataahwani007@gmail.com">Email</a>
-          </p>
+    <section class="main" id="home">
+      <div class="main__text">
+        <h2>Hi, I'm Ata Ali <span>Software Developer</span></h2>
+        <h3>I build web, mobile and backend applications that solve real problems.</h3>
+        <a href="#projects" class="work-btn">view my work</a>
+        <div class="social-icons">
+          <a href="https://linkedin.com/in/ata-ali-alahawani-697680233" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/ATAALIALLAHWANI" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:ataahwani007@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
         </div>
-      </section>
+      </div>
+      <div class="main__photo">
+        <img src="./assets/ataali.jpg" alt="Ata Ali" />
+      </div>
+    </section>
 
-      <section id="skills" class="container">
-        <h2>What I can do</h2>
-        <div class="skills">
-          <div>
-            <h3>Backend</h3>
-            <p>Build REST APIs and server-side apps, authentication with JWT, MVC web apps.</p>
-            <p class="muted">Java · Spring Boot · ASP.NET · JSP/Servlets · Kafka</p>
-          </div>
-          <div>
-            <h3>Frontend</h3>
-            <p>Build responsive web interfaces and single-page apps that talk to APIs.</p>
-            <p class="muted">React · JavaScript · HTML · CSS · Thymeleaf</p>
-          </div>
-          <div>
-            <h3>Mobile</h3>
-            <p>Build cross-platform mobile apps, integrate APIs and cloud services.</p>
-            <p class="muted">React Native · Azure</p>
-          </div>
-          <div>
-            <h3>Data &amp; Tools</h3>
-            <p>Design databases, write SQL queries and reports, containerize apps.</p>
-            <p class="muted">SQL · Oracle · MySQL · MongoDB · Docker · Git</p>
+    <section class="cards" id="services">
+      <h2 class="title">What I Do</h2>
+      <div class="content">
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-server"></i></div>
+          <div class="info">
+            <h3>Backend Development</h3>
+            <p>REST APIs and server-side applications with secure JWT authentication and clean MVC structure.</p>
+            <p class="stack">Java · Spring Boot · ASP.NET · Kafka</p>
           </div>
         </div>
-      </section>
-
-      <section id="projects" class="container">
-        <h2>Projects</h2>
-
-        <article class="project">
-          <img src="./assets/projects/dentalsync.jpg" alt="DentalSync dashboard" loading="lazy" />
-          <div class="project__text">
-            <h3>DentalSync — Dental Clinic Management</h3>
-            <p>
-              A system for dental clinics to manage patients, appointments and visit
-              history from one dashboard. It includes AI voice data entry (the doctor
-              speaks and the visit is filled in), PDF export, and full Arabic / English
-              support.
-            </p>
-            <p class="tech">JavaScript · HTML · CSS · AI voice entry</p>
-            <a href="https://github.com/ATAALIALLAHWANI/dentalsync-site" target="_blank" rel="noopener">View on GitHub</a>
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <div class="info">
+            <h3>Web Development</h3>
+            <p>Responsive websites and single-page applications connected to APIs.</p>
+            <p class="stack">React · JavaScript · HTML · CSS</p>
           </div>
-        </article>
-
-        <article class="project">
-          <img src="./assets/projects/justgo.jpg" alt="JustGo bus reservation home page" loading="lazy" />
-          <div class="project__text">
-            <h3>JustGo — Bus Ticket Reservation</h3>
-            <p>
-              An online platform that makes transporting students to universities
-              easier. Users view schedules, pick a date, reserve a seat and get a QR
-              code ticket. Separate roles for users, drivers and admins, with
-              messages and notifications.
-            </p>
-            <p class="tech">React · React Router · Axios · QR codes · ASP.NET API</p>
-            <a href="https://github.com/ATAALIALLAHWANI/TicketOnlineFrontEnd" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <div class="info">
+            <h3>Mobile Apps</h3>
+            <p>Cross-platform mobile apps integrated with APIs and cloud services.</p>
+            <p class="stack">React Native · Azure</p>
           </div>
-        </article>
-
-        <article class="project">
-          <img src="./assets/projects/travelpackages.jpg" alt="Travel packages search results" loading="lazy" />
-          <div class="project__text">
-            <h3>Travel Packages Finder</h3>
-            <p>
-              Search by origin and destination city to get travel packages that
-              combine hotels and flights — showing dates, carrier, flight price and
-              total package price.
-            </p>
-            <p class="tech">Java · Spring Boot · Thymeleaf · REST</p>
-            <a href="https://github.com/ATAALIALLAHWANI/travelpackages" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-database"></i></div>
+          <div class="info">
+            <h3>Databases &amp; Reports</h3>
+            <p>Database design, SQL queries and business reports, plus containerized deployment.</p>
+            <p class="stack">SQL · Oracle · MySQL · MongoDB · Docker</p>
           </div>
-        </article>
+        </div>
+      </div>
+    </section>
 
-        <article class="project">
-          <img src="./assets/projects/touristguide.jpg" alt="Tourist Guide cities page" loading="lazy" />
-          <div class="project__text">
+    <section class="projects" id="projects">
+      <h2 class="title">My Projects</h2>
+      <div class="content">
+        <div class="project-card">
+          <div class="project-img"><img src="./assets/projects/dentalsync.jpg" alt="DentalSync dashboard" loading="lazy" /></div>
+          <div class="project-info">
+            <h3>DentalSync</h3>
+            <p>Dental clinic management system: patients, appointments and visit history in one dashboard, with AI voice data entry, PDF export and Arabic / English support.</p>
+            <p class="stack">JavaScript · HTML · CSS · AI</p>
+            <a href="https://github.com/ATAALIALLAHWANI/dentalsync-site" target="_blank" rel="noopener" class="work-btn">more details</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img"><img src="./assets/projects/justgo.jpg" alt="JustGo bus reservation" loading="lazy" /></div>
+          <div class="project-info">
+            <h3>JustGo — Bus Reservation</h3>
+            <p>Online bus booking for university students: view schedules, reserve a seat and get a QR code ticket, with user, driver and admin roles.</p>
+            <p class="stack">React · React Router · Axios · QR Code</p>
+            <a href="https://github.com/ATAALIALLAHWANI/TicketOnlineFrontEnd" target="_blank" rel="noopener" class="work-btn">more details</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img"><img src="./assets/projects/travelpackages.jpg" alt="Travel packages search" loading="lazy" /></div>
+          <div class="project-info">
+            <h3>Travel Packages</h3>
+            <p>Search by origin and destination city to find travel packages combining hotels and flights, with dates, carrier and total price.</p>
+            <p class="stack">Java · Spring Boot · Thymeleaf</p>
+            <a href="https://github.com/ATAALIALLAHWANI/travelpackages" target="_blank" rel="noopener" class="work-btn">more details</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img"><img src="./assets/projects/touristguide.jpg" alt="Tourist Guide cities" loading="lazy" /></div>
+          <div class="project-info">
             <h3>Tourist Guide</h3>
-            <p>
-              A tourist guide for Jordanian cities where visitors can browse cities,
-              see their ratings and report traffic and litter violations. Built
-              with the MVC pattern.
-            </p>
-            <p class="tech">Java · JSP / Servlets · MySQL · MVC</p>
-            <a href="https://github.com/ATAALIALLAHWANI/webApplaction" target="_blank" rel="noopener">View on GitHub</a>
+            <p>Guide to Jordanian cities where visitors browse cities, see ratings and report traffic and litter violations. Built with MVC.</p>
+            <p class="stack">Java · JSP / Servlets · MySQL</p>
+            <a href="https://github.com/ATAALIALLAHWANI/webApplaction" target="_blank" rel="noopener" class="work-btn">more details</a>
           </div>
-        </article>
+        </div>
+      </div>
+    </section>
 
-        <p class="more">
-          More on <a href="https://github.com/ATAALIALLAHWANI" target="_blank" rel="noopener">GitHub</a>.
-        </p>
-      </section>
+    <section class="cards" id="contact">
+      <h2 class="title">I'm Here</h2>
+      <div class="content">
+        <a class="card" href="tel:+962786721676">
+          <div class="icon"><i class="fa-solid fa-phone"></i></div>
+          <h3>Phone</h3>
+          <p>+962 78 672 1676</p>
+        </a>
+        <a class="card" href="mailto:ataahwani007@gmail.com">
+          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+          <h3>Email</h3>
+          <p>ataahwani007@gmail.com</p>
+        </a>
+        <a class="card" href="./assets/Ata_ali.pdf" target="_blank" rel="noopener">
+          <div class="icon"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+          <h3>Download</h3>
+          <p>My CV</p>
+        </a>
+      </div>
+    </section>
 
-      <section id="contact" class="container">
-        <h2>Contact</h2>
-        <p>
-          I'm open to new opportunities. Email me at
-          <a href="mailto:ataahwani007@gmail.com">ataahwani007@gmail.com</a>
-          or reach me on
-          <a href="https://linkedin.com/in/ata-ali-alahawani-697680233" target="_blank" rel="noopener">LinkedIn</a>.
-        </p>
-      </section>
-    </main>
-
-    <footer class="container footer">
-      <p>© <span id="year"></span> Ata Ali Alahawani</p>
+    <footer class="foot">
+      <p>ataahwani007@gmail.com</p>
+      <div class="icons-foot">
+        <a href="https://linkedin.com/in/ata-ali-alahawani-697680233" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/ATAALIALLAHWANI" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:ataahwani007@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
     </footer>
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
   </body>
 </html>
