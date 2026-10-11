@@ -1,16 +1,10 @@
-# Portfolio
+# Ata Ali Alahawani — Portfolio
 
-<p align="center">
-  <img src="./Portfolio/Screenshot (2).png" alt="Demo Image 1" width="400">
-</p>
-<p align="center">
-  <img src="./Portfolio/Screenshot (3).png" alt="Demo Image 1" width="400">
-</p>
-<p align="center">
-  <img src="./Portfolio/Screenshot (4).png" alt="Demo Image 1" width="400">
-</p>
-<p align="center">
-  <img src="./Portfolio/Screenshot (5).png" alt="Demo Image 1" width="400">
-</p>
+Personal portfolio site: https://ataaliallahwani.github.io/Portfolio
 
+Static HTML/CSS/JS (no build step), deployed to GitHub Pages on every push to `main` via `.github/workflows/static.yml`.
 
+- `index.html` — page content (about, experience, projects, skills, contact)
+- `style.css` — styles, dark/light theme, responsive layout
+- `script.js` — theme toggle, mobile menu, scroll animations
+- `assets/` — photo, project image, CV (`Ata_ali.pdf`)
